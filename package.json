@@ -1,11 +1,10 @@
 {
   "name": "docker-compose",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
-    "start": "node disk/index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,6 @@
   },
   "devDependencies": {
     "prisma": "^7.4.2"
-  }
+  },
+  "description": ""
 }
