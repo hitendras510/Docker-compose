@@ -1,0 +1,13 @@
+version: '1.29.2'
+services:
+ postgres:
+  image: postgres
+  container_name: postgres
+  ports:
+   - "5432:5432"
+
+backend22:
+  image: backend22
+  container_name: backend22
+  ports:
+   - "3000:3000"

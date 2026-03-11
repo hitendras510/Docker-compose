@@ -1,4 +1,5 @@
 import express from "express";
+//@ts-ignore
 import { PrismaClient } from "@prisma/client";
 
 const app = express();
